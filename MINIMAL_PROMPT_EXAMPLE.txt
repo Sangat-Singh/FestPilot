@@ -1,0 +1,5 @@
+EXAMPLE OF A CONCISE REPRODUCTION PROMPT — NOT A VERBATIM RECORD OF DEVELOPMENT
+
+"Build a polished, responsive, multi-page College Fest Project Management web prototype named FestPilot based on the attached college fest project-management PPT. Use vanilla HTML/CSS/JS with browser Local Storage, sample data and GitHub/Vercel-ready static pages. Include dashboard, charter and MVP scope, events/venues, team and stakeholder roles, Agile task board, registrations, six-week WBS/Gantt schedule, budgets/approvals, risk and change control, SPI/CPI quality dashboard and project closure export. Use a purple/blue festival aesthetic. Make forms work, persist changes, clearly label demo data and distinguish simulated functionality from planned secure React/Express/PostgreSQL/JWT production features. Include README and viva guide."
+
+This prompt demonstrates how to specify the complete application in one concise instruction. It is provided as an illustrative example, not evidence that the final code was developed in exactly one prompt.

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#101429"><meta name="description" content="FestPilot — College Fest Project Management Platform. Plan, coordinate and control every part of your college fest.">
+ <title>Events & venues · FestPilot</title>
+ <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+ <link rel="stylesheet" href="styles.css">
+ <script src="app.js" defer></script>
+</head>
+<body data-page="events">
+<div class="shell" id="shell">
+ <aside class="sidebar" id="sidebar">
+  <a class="brand" href="index.html" aria-label="FestPilot home"><span class="brand-symbol">✳</span><span><strong>fest<span class="brand-emphasis">pilot</span></strong><small>PROJECT MANAGEMENT HUB</small></span></a>
+  <div class="workspace-tag"><span class="workspace-orb">A</span><div><strong>AURORA ’27</strong><small>SRMIST · College Fest</small></div><span class="workspace-more">⌄</span></div>
+  <span class="nav-label">WORKSPACE</span>
+  <nav class="nav" aria-label="Primary navigation">
+   <a data-nav="overview" href="index.html"><i data-icon="grid"></i><span>Command center</span></a>
+   <a data-nav="events" href="events.html"><i data-icon="calendar"></i><span>Events & venues</span></a>
+   <a data-nav="tasks" href="tasks.html"><i data-icon="columns"></i><span>Task board</span><b id="sidebar-task-count" class="side-pill">0</b></a>
+   <a data-nav="teams" href="teams.html"><i data-icon="users"></i><span>Team & stakeholders</span></a>
+   <a data-nav="registrations" href="registrations.html"><i data-icon="ticket"></i><span>Registrations</span></a>
+  </nav>
+  <span class="nav-label nav-label-second">PROJECT CONTROL</span>
+  <nav class="nav" aria-label="Project control navigation">
+   <a data-nav="charter" href="charter.html"><i data-icon="file"></i><span>Charter & scope</span></a>
+   <a data-nav="schedule" href="schedule.html"><i data-icon="timeline"></i><span>Schedule & WBS</span></a>
+   <a data-nav="budget" href="budget.html"><i data-icon="wallet"></i><span>Budget approvals</span></a>
+   <a data-nav="risks" href="risks.html"><i data-icon="shield"></i><span>Risk & change log</span></a>
+   <a data-nav="reports" href="reports.html"><i data-icon="chart"></i><span>Reports & closure</span></a>
+  </nav>
+  <div class="sidebar-push"></div>
+  <div class="sprint-card"><span class="sprint-eyebrow"><span class="pulse-dot"></span> IN DEVELOPMENT</span><strong>Sprint 03 / 03</strong><p>Registration, budget controls and final reporting</p><div class="sprint-meter"><span style="width:76%"></span></div><span class="sprint-meta">Demo progress · 76%</span></div>
+  <div class="sidebar-foot"><span class="user-avatar">SS</span><div><strong>Project manager</strong><small>Interactive demo workspace</small></div><i data-icon="chevron"></i></div>
+ </aside>
+ <div class="main-wrap">
+  <header class="topbar"><div class="topbar-left"><button class="icon-btn menu-toggle" id="menu-toggle" title="Toggle navigation" aria-label="Toggle navigation"><i data-icon="menu"></i></button><span class="bread-top">AURORA ’27</span><i data-icon="chevron-right"></i><b id="bread-label">Events & venues</b></div><div class="topbar-right"><span class="demo-chip"><span class="tiny-dot"></span> Demo workspace</span><span class="top-sep"></span><span id="today-date" class="date-now"></span><button class="icon-btn notify-btn" data-action="notifications" aria-label="Notifications"><i data-icon="bell"></i><span class="notification-dot"></span></button><span class="top-avatar">SS</span></div></header>
+  <main class="content" id="page-content" tabindex="-1"></main>
+  <footer class="footer"><span>© FestPilot · College Fest Project Management Platform</span><span>Project proposal prototype · illustrative data · stored locally</span></footer>
+ </div>
+</div>
+<div class="sidebar-scrim" id="sidebar-scrim"></div>
+<dialog id="modal" class="modal"><div class="modal-inner" id="modal-content"></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
